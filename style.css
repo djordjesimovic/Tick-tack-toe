@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.game-board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.game-board button{
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+}
+.turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.turn button{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.reset{
+    padding: 15px;
+    font-size: 16px;
+}
